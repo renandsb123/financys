@@ -1,3 +1,4 @@
+import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -7,12 +8,16 @@ import { CategoriesModule } from './pages/categories/categories.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent, 
+    // NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CategoriesModule
+    CategoriesModule,
+   
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
