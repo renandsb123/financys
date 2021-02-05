@@ -6,8 +6,6 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HttpClientModule } from "@angular/common/http";
 import { RouterModule } from "@angular/router";
 
-// import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api";
-// import { InMemoryDatabase } from "../in-memory-database";
 
 @NgModule({
   imports: [
@@ -15,7 +13,6 @@ import { RouterModule } from "@angular/router";
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    // HttpClientInMemoryWebApiModule.forRoot(InMemoryDatabase),
     RouterModule
   ],
   declarations: [
